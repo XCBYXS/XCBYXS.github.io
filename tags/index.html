@@ -198,9 +198,7 @@
             <!-- 标签云 -->
             <div id='tag_cloud' class="tags">
                 
-                    <a href="#-随笔 -文字" title="-随笔 -文字" rel="1">-随笔 -文字</a>
-                
-                    <a href="#随笔" title="随笔" rel="1">随笔</a>
+                    <a href="#随笔" title="随笔" rel="3">随笔</a>
                 
             </div>
 
@@ -208,9 +206,24 @@
 
             
             <div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="-随笔 -文字">
-                    <span class="tag-text">-随笔 -文字</span>
+                <span class="fa fa-tag listing-seperator" id="随笔">
+                    <span class="tag-text">随笔</span>
                 </span>
+                
+                  <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+                 <div class="post-preview">
+                     <a href="/article/在维纳斯脚下哭泣/">
+                        <h2 class="post-title">
+                            【周国平】在维纳斯脚下哭泣
+                        </h2>
+                        
+                    </a>
+                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+                </div>
+                <hr>
                 
                   <!-- <li class="listing-item">
                   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
@@ -226,13 +239,6 @@
                     <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
                 </div>
                 <hr>
-                
-            </div>
-            
-            <div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="随笔">
-                    <span class="tag-text">随笔</span>
-                </span>
                 
                   <!-- <li class="listing-item">
                   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
